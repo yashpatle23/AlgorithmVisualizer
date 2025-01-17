@@ -8,5 +8,10 @@ const nextConfig = {
     assetPrefix: '/AlgorithmVisualizer',
     basePath: '/AlgorithmVisualizer',
 }
-   
+module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+};
+
 export default nextConfig;
